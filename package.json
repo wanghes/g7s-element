@@ -1,0 +1,69 @@
+{
+  "name": "g7-element",
+  "version": "1.0.0",
+  "description": "no",
+  "main": "lib/index.js",
+  "scripts": {
+    "clean": "rimraf lib",
+    "utils": "cross-env BABEL_ENV=utils babel element/src --out-dir lib --ignore element/src/index.js",
+    "theme": "gulp build --gulpfile element/packages/theme-chalk/gulpfile.js && cp-cli element/packages/theme-chalk/lib lib/theme-chalk",
+    "dist": "npm run clean && webpack --config ./webpack.conf.js && webpack --config ./webpack.component.js && npm run utils && npm run theme"
+  },
+  "repository": {
+    "type": "git",
+    "url": "no"
+  },
+  "keywords": [
+    "no"
+  ],
+  "author": "wanghes",
+  "license": "MIT",
+  "dependencies": {
+    "async-validator": "~1.8.1",
+    "babel-helper-vue-jsx-merge-props": "^2.0.0",
+    "deepmerge": "^1.2.0",
+    "normalize-wheel": "^1.0.1",
+    "resize-observer-polyfill": "^1.5.0",
+    "throttle-debounce": "^1.0.1",
+    "vue": "^2.5.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-helper-vue-jsx-merge-props": "^2.0.0",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "babel-plugin-transform-runtime": "^6.22.0",
+    "babel-plugin-transform-vue-jsx": "^3.5.0",
+    "babel-preset-env": "^1.3.2",
+    "babel-preset-stage-0": "^6.24.1",
+    "cp-cli": "^1.0.2",
+    "cross-env": "^4.0.0",
+    "css-loader": "^0.28.0",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-postcss": "^6.1.1",
+    "gulp-sass": "^3.1.0",
+    "file-loader": "^1.1.4",
+    "html-webpack-plugin": "^2.28.0",
+    "json-loader": "^0.5.7",
+    "node-sass": "^4.5.3",
+    "progress-bar-webpack-plugin": "^1.11.0",
+    "rimraf": "^2.6.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.16.1",
+    "supervisor": "^0.12.0",
+    "uglifyjs-webpack-plugin": "^1.0.0-rc.0",
+    "url-loader": "^0.5.8",
+    "vue-loader": "^13.3.0",
+    "vue-style-loader": "^3.0.1",
+    "vue-template-compiler": "^2.4.2",
+    "webpack": "^3.6.0",
+    "webpack-bundle-analyzer": "^2.9.0",
+    "webpack-dev-server": "^2.9.1",
+    "webpack-hot-middleware": "^2.22.1",
+    "webpack-merge": "^4.1.0"
+  }
+}
