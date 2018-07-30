@@ -2,6 +2,7 @@ const path = require('path');
 const webpack = require('webpack');
 const ProgressBarPlugin = require('progress-bar-webpack-plugin');
 const Components = require('./components.json');
+const config = require('./config');
 
 const webpackConfig = {
     entry: Components,
@@ -21,12 +22,13 @@ const webpackConfig = {
         },
         modules: ['node_modules']
     },
+    externals: config.externals,
     module: {
         rules: [
             {
                 test: /\.(jsx?|babel|es6)$/,
                 include: process.cwd(),
-                exclude: ['node_modules'],
+                exclude: config.jsexclude,
                 loader: 'babel-loader'
             },
             {

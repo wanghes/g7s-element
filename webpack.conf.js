@@ -1,6 +1,7 @@
 const path = require('path');
 const webpack = require('webpack');
 const ProgressBarPlugin = require('progress-bar-webpack-plugin');
+const config = require('./config');
 
 module.exports = {
     entry: {
@@ -23,9 +24,9 @@ module.exports = {
             'element-ui': path.resolve(__dirname, './element')
         }
     },
-    // externals: {
-    //     vue: config.vue
-    // },
+    externals: {
+        vue: config.vue
+    },
     module: {
         rules: [
             {
