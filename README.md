@@ -1,4 +1,4 @@
-## 基于 element-ui 基础构建g7s前端的组件及样式，进行第二次开组件组件，
+## 基于 element-ui 基础构建g7s前端的组件及样式，进行第二次开发组件，
 
 深入element组件内部按项目需求修改交互逻辑
 
@@ -12,7 +12,7 @@ import Vue from 'vue'
 import G7SElement from 'g7s-element'
 
 Vue.use(G7SElement)
-
+```
 ## 按需加载
 
 按需加载.balelrc设置
