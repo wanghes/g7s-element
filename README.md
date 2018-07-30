@@ -38,7 +38,7 @@ Vue.use(G7SElement)
   ]
 }
 ```
-
+## 非单文件组件按需加载
 ```javascript
 import {
   Select,
