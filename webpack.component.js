@@ -15,11 +15,7 @@ const webpackConfig = {
     },
     resolve: {
         extensions: ['.js', '.vue', '.json'],
-        alias: {
-            main: path.resolve(__dirname, './element/src'),
-            packages: path.resolve(__dirname, './element/packages'),
-            'element-ui': path.resolve(__dirname, './element')
-        },
+        alias: config.alias,
         modules: ['node_modules']
     },
     externals: config.externals,

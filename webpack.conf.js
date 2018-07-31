@@ -5,7 +5,7 @@ const config = require('./config');
 
 module.exports = {
     entry: {
-        app: ['./element/src/index.js']
+        app: ['./src/index.js']
     },
     output: {
         path: path.resolve(process.cwd(), './lib'),
@@ -18,11 +18,7 @@ module.exports = {
     },
     resolve: {
         extensions: ['.js', '.vue', '.json'],
-        alias: {
-            main: path.resolve(__dirname, './element/src'),
-            packages: path.resolve(__dirname, './element/packages'),
-            'element-ui': path.resolve(__dirname, './element')
-        }
+        alias: config.alias
     },
     externals: {
         vue: config.vue

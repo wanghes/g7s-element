@@ -1,12 +1,12 @@
 {
-  "name": "g7-element",
+  "name": "g7s-element",
   "version": "1.0.0",
   "description": "use element do second develop",
   "main": "lib/index.js",
   "scripts": {
     "clean": "rimraf lib",
-    "utils": "cross-env BABEL_ENV=utils babel element/src --out-dir lib --ignore element/src/index.js",
-    "theme": "gulp build --gulpfile element/packages/theme-chalk/gulpfile.js && cp-cli element/packages/theme-chalk/lib lib/theme-chalk",
+    "utils": "cross-env BABEL_ENV=utils babel src --out-dir lib --ignore src/index.js",
+    "theme": "gulp build --gulpfile packages/theme-chalk/gulpfile.js && cp-cli packages/theme-chalk/lib lib/theme-chalk",
     "build": "npm run clean && webpack --config ./webpack.conf.js && webpack --config ./webpack.component.js && npm run utils && npm run theme"
   },
   "repository": {
