@@ -1,7 +1,7 @@
 const path = require('path');
 const webpack = require('webpack');
 const ProgressBarPlugin = require('progress-bar-webpack-plugin');
-const config = require('./config');
+const config = require('./config'); //test
 
 module.exports = {
     entry: {
