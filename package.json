@@ -1,5 +1,5 @@
 {
-  "name": "@ued/element",
+  "name": "g7s-element",
   "version": "1.0.0",
   "description": "use element do second develop",
   "main": "lib/index.js",
