@@ -32,7 +32,7 @@
 
 <script type="text/babel">
   import { limitTimeRange, isDate, clearMilliseconds, timeWithinRange } from '../util';
-  import Locale from 'g7s-element/src/mixins/locale';
+  import Locale from '@ued/element/src/mixins/locale';
   import TimeSpinner from '../basic/time-spinner';
 
   export default {

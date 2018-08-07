@@ -67,9 +67,9 @@
 </template>
 
 <script type="text/jsx">
-  import ElCollapseTransition from 'g7s-element/src/transitions/collapse-transition';
-  import ElCheckbox from 'g7s-element/packages/checkbox';
-  import emitter from 'g7s-element/src/mixins/emitter';
+  import ElCollapseTransition from '@ued/element/src/transitions/collapse-transition';
+  import ElCheckbox from '@ued/element/packages/checkbox';
+  import emitter from '@ued/element/src/mixins/emitter';
   import { getNodeKey } from './model/util';
 
   export default {

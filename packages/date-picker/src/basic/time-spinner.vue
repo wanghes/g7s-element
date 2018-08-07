@@ -96,8 +96,8 @@
 
 <script type="text/babel">
   import { getRangeHours, modifyTime } from '../util';
-  import ElScrollbar from 'g7s-element/packages/scrollbar';
-  import RepeatClick from 'g7s-element/src/directives/repeat-click';
+  import ElScrollbar from '@ued/element/packages/scrollbar';
+  import RepeatClick from '@ued/element/src/directives/repeat-click';
 
   export default {
     components: { ElScrollbar },

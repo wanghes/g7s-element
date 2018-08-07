@@ -3,7 +3,7 @@ import { addClass, removeClass } from '../dom';
 
 let hasModal = false;
 let hasInitZIndex = false;
-let zIndex = 2000;
+let zIndex = 2020;
 
 const getModal = function() {
   if (Vue.prototype.$isServer) return;

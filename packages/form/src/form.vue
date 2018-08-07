@@ -7,7 +7,7 @@
   </form>
 </template>
 <script>
-  import objectAssign from 'g7s-element/src/utils/merge';
+  import objectAssign from '@ued/element/src/utils/merge';
 
   export default {
     name: 'ElForm',

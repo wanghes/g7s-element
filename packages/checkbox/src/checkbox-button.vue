@@ -44,7 +44,7 @@
   </label>
 </template>
 <script>
-  import Emitter from 'g7s-element/src/mixins/emitter';
+  import Emitter from '@ued/element/src/mixins/emitter';
 
   export default {
     name: 'ElCheckboxButton',

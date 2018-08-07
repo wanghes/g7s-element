@@ -10,7 +10,7 @@
 </template>
 
 <script type="text/babel">
-  import Emitter from 'g7s-element/src/mixins/emitter';
+  import Emitter from '@ued/element/src/mixins/emitter';
 
   export default {
     mixins: [Emitter],

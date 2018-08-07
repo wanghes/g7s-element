@@ -28,7 +28,7 @@
 </template>
 
 <script>
-  import ElTooltip from 'g7s-element/packages/tooltip';
+  import ElTooltip from '@ued/element/packages/tooltip';
 
   export default {
     name: 'ElSliderButton',

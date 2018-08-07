@@ -96,11 +96,11 @@
   </div>
 </template>
 <script>
-  import emitter from 'g7s-element/src/mixins/emitter';
-  import Migrating from 'g7s-element/src/mixins/migrating';
+  import emitter from '@ued/element/src/mixins/emitter';
+  import Migrating from '@ued/element/src/mixins/migrating';
   import calcTextareaHeight from './calcTextareaHeight';
-  import merge from 'g7s-element/src/utils/merge';
-  import { isKorean } from 'g7s-element/src/utils/shared';
+  import merge from '@ued/element/src/utils/merge';
+  import { isKorean } from '@ued/element/src/utils/shared';
 
   export default {
     name: 'ElInput',

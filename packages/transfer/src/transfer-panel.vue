@@ -52,10 +52,10 @@
 </template>
 
 <script>
-  import ElCheckboxGroup from 'g7s-element/packages/checkbox-group';
-  import ElCheckbox from 'g7s-element/packages/checkbox';
-  import ElInput from 'g7s-element/packages/input';
-  import Locale from 'g7s-element/src/mixins/locale';
+  import ElCheckboxGroup from '@ued/element/packages/checkbox-group';
+  import ElCheckbox from '@ued/element/packages/checkbox';
+  import ElInput from '@ued/element/packages/input';
+  import Locale from '@ued/element/src/mixins/locale';
 
   export default {
     mixins: [Locale],

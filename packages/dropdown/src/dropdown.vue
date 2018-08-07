@@ -1,10 +1,10 @@
 <script>
-  import Clickoutside from 'g7s-element/src/utils/clickoutside';
-  import Emitter from 'g7s-element/src/mixins/emitter';
-  import Migrating from 'g7s-element/src/mixins/migrating';
-  import ElButton from 'g7s-element/packages/button';
-  import ElButtonGroup from 'g7s-element/packages/button-group';
-  import { generateId } from 'g7s-element/src/utils/util';
+  import Clickoutside from '@ued/element/src/utils/clickoutside';
+  import Emitter from '@ued/element/src/mixins/emitter';
+  import Migrating from '@ued/element/src/mixins/migrating';
+  import ElButton from '@ued/element/packages/button';
+  import ElButtonGroup from '@ued/element/packages/button-group';
+  import { generateId } from '@ued/element/src/utils/util';
 
   export default {
     name: 'ElDropdown',

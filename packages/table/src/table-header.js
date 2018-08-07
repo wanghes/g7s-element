@@ -1,6 +1,6 @@
-import { hasClass, addClass, removeClass } from 'g7s-element/src/utils/dom';
-import ElCheckbox from 'g7s-element/packages/checkbox';
-import ElTag from 'g7s-element/packages/tag';
+import { hasClass, addClass, removeClass } from '@ued/element/src/utils/dom';
+import ElCheckbox from '@ued/element/packages/checkbox';
+import ElTag from '@ued/element/packages/tag';
 import Vue from 'vue';
 import FilterPanel from './filter-panel.vue';
 import LayoutObserver from './layout-observer';

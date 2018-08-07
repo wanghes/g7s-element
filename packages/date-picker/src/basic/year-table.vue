@@ -44,7 +44,7 @@
 </template>
 
 <script type="text/babel">
-  import { hasClass } from 'g7s-element/src/utils/dom';
+  import { hasClass } from '@ued/element/src/utils/dom';
   import { isDate, range, nextDate, getDayCountOfYear } from '../util';
 
   const datesInYear = year => {

@@ -18,8 +18,8 @@
 </template>
 
 <script type="text/babel">
-  import ElScrollbar from 'g7s-element/packages/scrollbar';
-  import scrollIntoView from 'g7s-element/src/utils/scroll-into-view';
+  import ElScrollbar from '@ued/element/packages/scrollbar';
+  import scrollIntoView from '@ued/element/src/utils/scroll-into-view';
 
   const parseTime = function(time) {
     const values = (time || '').split(':');

@@ -33,7 +33,7 @@
 <script>
   import Color from './color';
   import PickerDropdown from './components/picker-dropdown.vue';
-  import Clickoutside from 'g7s-element/src/utils/clickoutside';
+  import Clickoutside from '@ued/element/src/utils/clickoutside';
 
   export default {
     name: 'ElColorPicker',

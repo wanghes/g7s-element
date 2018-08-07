@@ -16,8 +16,8 @@
 </template>
 
 <script type="text/babel">
-  import Emitter from 'g7s-element/src/mixins/emitter';
-  import { getValueByPath } from 'g7s-element/src/utils/util';
+  import Emitter from '@ued/element/src/mixins/emitter';
+  import { getValueByPath } from '@ued/element/src/utils/util';
 
   export default {
     mixins: [Emitter],

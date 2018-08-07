@@ -1,8 +1,8 @@
-import Popper from 'g7s-element/src/utils/vue-popper';
+import Popper from '@ued/element/src/utils/vue-popper';
 import { debounce } from 'throttle-debounce';
-import { addClass, removeClass, on, off } from 'g7s-element/src/utils/dom';
-import { getFirstComponentChild } from 'g7s-element/src/utils/vdom';
-import { generateId } from 'g7s-element/src/utils/util';
+import { addClass, removeClass, on, off } from '@ued/element/src/utils/dom';
+import { getFirstComponentChild } from '@ued/element/src/utils/vdom';
+import { generateId } from '@ued/element/src/utils/util';
 import Vue from 'vue';
 
 export default {

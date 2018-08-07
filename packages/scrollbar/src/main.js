@@ -1,8 +1,8 @@
 // reference https://github.com/noeldelgado/gemini-scrollbar/blob/master/index.js
 
-import { addResizeListener, removeResizeListener } from 'g7s-element/src/utils/resize-event';
-import scrollbarWidth from 'g7s-element/src/utils/scrollbar-width';
-import { toObject } from 'g7s-element/src/utils/util';
+import { addResizeListener, removeResizeListener } from '@ued/element/src/utils/resize-event';
+import scrollbarWidth from '@ued/element/src/utils/scrollbar-width';
+import { toObject } from '@ued/element/src/utils/util';
 import Bar from './bar';
 
 /* istanbul ignore next */

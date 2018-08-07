@@ -134,24 +134,24 @@
 </template>
 
 <script type="text/babel">
-  import Emitter from 'g7s-element/src/mixins/emitter';
-  import Focus from 'g7s-element/src/mixins/focus';
-  import Locale from 'g7s-element/src/mixins/locale';
-  import ElInput from 'g7s-element/packages/input';
+  import Emitter from '@ued/element/src/mixins/emitter';
+  import Focus from '@ued/element/src/mixins/focus';
+  import Locale from '@ued/element/src/mixins/locale';
+  import ElInput from '@ued/element/packages/input';
   import ElSelectMenu from './select-dropdown.vue';
   import ElOption from './option.vue';
-  import ElTag from 'g7s-element/packages/tag';
-  import ElScrollbar from 'g7s-element/packages/scrollbar';
+  import ElTag from '@ued/element/packages/tag';
+  import ElScrollbar from '@ued/element/packages/scrollbar';
   import { debounce } from 'throttle-debounce';
-  import Clickoutside from 'g7s-element/src/utils/clickoutside';
-  import { addClass, removeClass, hasClass } from 'g7s-element/src/utils/dom';
-  import { addResizeListener, removeResizeListener } from 'g7s-element/src/utils/resize-event';
-  import { t } from 'g7s-element/src/locale';
-  import scrollIntoView from 'g7s-element/src/utils/scroll-into-view';
-  import { getValueByPath } from 'g7s-element/src/utils/util';
-  import { valueEquals } from 'g7s-element/src/utils/util';
+  import Clickoutside from '@ued/element/src/utils/clickoutside';
+  import { addClass, removeClass, hasClass } from '@ued/element/src/utils/dom';
+  import { addResizeListener, removeResizeListener } from '@ued/element/src/utils/resize-event';
+  import { t } from '@ued/element/src/locale';
+  import scrollIntoView from '@ued/element/src/utils/scroll-into-view';
+  import { getValueByPath } from '@ued/element/src/utils/util';
+  import { valueEquals } from '@ued/element/src/utils/util';
   import NavigationMixin from './navigation-mixin';
-  import { isKorean } from 'g7s-element/src/utils/shared';
+  import { isKorean } from '@ued/element/src/utils/shared';
 
   const sizeMap = {
     'medium': 36,

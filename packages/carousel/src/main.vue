@@ -51,7 +51,7 @@
 
 <script>
 import { throttle } from 'throttle-debounce';
-import { addResizeListener, removeResizeListener } from 'g7s-element/src/utils/resize-event';
+import { addResizeListener, removeResizeListener } from '@ued/element/src/utils/resize-event';
 
 export default {
   name: 'ElCarousel',

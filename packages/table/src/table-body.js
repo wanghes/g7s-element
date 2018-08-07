@@ -1,7 +1,7 @@
 import { getCell, getColumnByCell, getRowIdentity } from './util';
-import { getStyle, hasClass, addClass, removeClass } from 'g7s-element/src/utils/dom';
-import ElCheckbox from 'g7s-element/packages/checkbox';
-import ElTooltip from 'g7s-element/packages/tooltip';
+import { getStyle, hasClass, addClass, removeClass } from '@ued/element/src/utils/dom';
+import ElCheckbox from '@ued/element/packages/checkbox';
+import ElTooltip from '@ued/element/packages/tooltip';
 import { debounce } from 'throttle-debounce';
 import LayoutObserver from './layout-observer';
 

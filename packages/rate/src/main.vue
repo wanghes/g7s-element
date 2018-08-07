@@ -32,8 +32,8 @@
 </template>
 
 <script>
-  import { hasClass } from 'g7s-element/src/utils/dom';
-  import Migrating from 'g7s-element/src/mixins/migrating';
+  import { hasClass } from '@ued/element/src/utils/dom';
+  import Migrating from '@ued/element/src/mixins/migrating';
 
   export default {
     name: 'ElRate',

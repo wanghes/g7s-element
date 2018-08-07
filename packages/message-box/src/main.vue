@@ -77,13 +77,13 @@
 </template>
 
 <script type="text/babel">
-  import Popup from 'g7s-element/src/utils/popup';
-  import Locale from 'g7s-element/src/mixins/locale';
-  import ElInput from 'g7s-element/packages/input';
-  import ElButton from 'g7s-element/packages/button';
-  import { addClass, removeClass } from 'g7s-element/src/utils/dom';
-  import { t } from 'g7s-element/src/locale';
-  import Dialog from 'g7s-element/src/utils/aria-dialog';
+  import Popup from '@ued/element/src/utils/popup';
+  import Locale from '@ued/element/src/mixins/locale';
+  import ElInput from '@ued/element/packages/input';
+  import ElButton from '@ued/element/packages/button';
+  import { addClass, removeClass } from '@ued/element/src/utils/dom';
+  import { t } from '@ued/element/src/locale';
+  import Dialog from '@ued/element/src/utils/aria-dialog';
 
   let messageBox;
   let typeMap = {

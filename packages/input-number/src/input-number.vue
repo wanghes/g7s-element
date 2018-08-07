@@ -50,9 +50,9 @@
   </div>
 </template>
 <script>
-  import ElInput from 'g7s-element/packages/input';
-  import Focus from 'g7s-element/src/mixins/focus';
-  import RepeatClick from 'g7s-element/src/directives/repeat-click';
+  import ElInput from '@ued/element/packages/input';
+  import Focus from '@ued/element/src/mixins/focus';
+  import RepeatClick from '@ued/element/src/directives/repeat-click';
 
   export default {
     name: 'ElInputNumber',

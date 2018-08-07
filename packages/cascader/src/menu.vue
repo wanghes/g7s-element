@@ -1,7 +1,7 @@
 <script>
-  import { isDef } from 'g7s-element/src/utils/shared';
-  import scrollIntoView from 'g7s-element/src/utils/scroll-into-view';
-  import { generateId } from 'g7s-element/src/utils/util';
+  import { isDef } from '@ued/element/src/utils/shared';
+  import scrollIntoView from '@ued/element/src/utils/scroll-into-view';
+  import { generateId } from '@ued/element/src/utils/util';
 
   const copyArray = (arr, props) => {
     if (!arr || !Array.isArray(arr) || !props) return arr;

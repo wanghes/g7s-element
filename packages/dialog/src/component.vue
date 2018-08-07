@@ -31,9 +31,9 @@
 </template>
 
 <script>
-  import Popup from 'g7s-element/src/utils/popup';
-  import Migrating from 'g7s-element/src/mixins/migrating';
-  import emitter from 'g7s-element/src/mixins/emitter';
+  import Popup from '@ued/element/src/utils/popup';
+  import Migrating from '@ued/element/src/mixins/migrating';
+  import emitter from '@ued/element/src/mixins/emitter';
 
   export default {
     name: 'ElDialog',

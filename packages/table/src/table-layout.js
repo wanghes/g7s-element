@@ -1,4 +1,4 @@
-import scrollbarWidth from 'g7s-element/src/utils/scrollbar-width';
+import scrollbarWidth from '@ued/element/src/utils/scrollbar-width';
 import Vue from 'vue';
 
 class TableLayout {

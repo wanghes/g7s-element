@@ -48,9 +48,9 @@
 </template>
 
 <script type="text/babel">
-  import Locale from 'g7s-element/src/mixins/locale';
+  import Locale from '@ued/element/src/mixins/locale';
   import { isDate, range, getDayCountOfMonth, nextDate } from '../util';
-  import { hasClass } from 'g7s-element/src/utils/dom';
+  import { hasClass } from '@ued/element/src/utils/dom';
 
   const datesInMonth = (year, month) => {
     const numOfDays = getDayCountOfMonth(year, month);

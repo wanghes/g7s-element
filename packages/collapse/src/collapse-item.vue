@@ -44,9 +44,9 @@
   </div>
 </template>
 <script>
-  import ElCollapseTransition from 'g7s-element/src/transitions/collapse-transition';
-  import Emitter from 'g7s-element/src/mixins/emitter';
-  import { generateId } from 'g7s-element/src/utils/util';
+  import ElCollapseTransition from '@ued/element/src/transitions/collapse-transition';
+  import Emitter from '@ued/element/src/mixins/emitter';
+  import { generateId } from '@ued/element/src/utils/util';
 
   export default {
     name: 'ElCollapseItem',

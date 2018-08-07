@@ -1,4 +1,4 @@
-import objectAssign from 'g7s-element/src/utils/merge';
+import objectAssign from '@ued/element/src/utils/merge';
 import { markNodeData, NODE_KEY } from './util';
 
 export const getChildState = node => {

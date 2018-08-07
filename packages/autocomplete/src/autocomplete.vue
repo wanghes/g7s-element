@@ -57,13 +57,13 @@
 </template>
 <script>
   import { debounce } from 'throttle-debounce';
-  import ElInput from 'g7s-element/packages/input';
-  import Clickoutside from 'g7s-element/src/utils/clickoutside';
+  import ElInput from '@ued/element/packages/input';
+  import Clickoutside from '@ued/element/src/utils/clickoutside';
   import ElAutocompleteSuggestions from './autocomplete-suggestions.vue';
-  import Emitter from 'g7s-element/src/mixins/emitter';
-  import Migrating from 'g7s-element/src/mixins/migrating';
-  import { generateId } from 'g7s-element/src/utils/util';
-  import Focus from 'g7s-element/src/mixins/focus';
+  import Emitter from '@ued/element/src/mixins/emitter';
+  import Migrating from '@ued/element/src/mixins/migrating';
+  import { generateId } from '@ued/element/src/utils/util';
+  import Focus from '@ued/element/src/mixins/focus';
 
   export default {
     name: 'ElAutocomplete',

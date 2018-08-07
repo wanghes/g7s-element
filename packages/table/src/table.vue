@@ -213,12 +213,12 @@
 </template>
 
 <script type="text/babel">
-  import ElCheckbox from 'g7s-element/packages/checkbox';
+  import ElCheckbox from '@ued/element/packages/checkbox';
   import { debounce } from 'throttle-debounce';
-  import { addResizeListener, removeResizeListener } from 'g7s-element/src/utils/resize-event';
-  import Mousewheel from 'g7s-element/src/directives/mousewheel';
-  import Locale from 'g7s-element/src/mixins/locale';
-  import Migrating from 'g7s-element/src/mixins/migrating';
+  import { addResizeListener, removeResizeListener } from '@ued/element/src/utils/resize-event';
+  import Mousewheel from '@ued/element/src/directives/mousewheel';
+  import Locale from '@ued/element/src/mixins/locale';
+  import Migrating from '@ued/element/src/mixins/migrating';
   import TableStore from './table-store';
   import TableLayout from './table-layout';
   import TableBody from './table-body';

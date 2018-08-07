@@ -31,9 +31,9 @@
 </template>
 <script>
   import AsyncValidator from 'async-validator';
-  import emitter from 'g7s-element/src/mixins/emitter';
-  import objectAssign from 'g7s-element/src/utils/merge';
-  import { noop, getPropByPath } from 'g7s-element/src/utils/util';
+  import emitter from '@ued/element/src/mixins/emitter';
+  import objectAssign from '@ued/element/src/utils/merge';
+  import { noop, getPropByPath } from '@ued/element/src/utils/util';
 
   export default {
     name: 'ElFormItem',

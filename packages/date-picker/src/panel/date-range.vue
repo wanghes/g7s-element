@@ -198,12 +198,12 @@
     extractDateFormat,
     extractTimeFormat
   } from '../util';
-  import Clickoutside from 'g7s-element/src/utils/clickoutside';
-  import Locale from 'g7s-element/src/mixins/locale';
+  import Clickoutside from '@ued/element/src/utils/clickoutside';
+  import Locale from '@ued/element/src/mixins/locale';
   import TimePicker from './time';
   import DateTable from '../basic/date-table';
-  import ElInput from 'g7s-element/packages/input';
-  import ElButton from 'g7s-element/packages/button';
+  import ElInput from '@ued/element/packages/input';
+  import ElButton from '@ued/element/packages/button';
 
   const advanceDate = (date, amount) => {
     return new Date(new Date(date).getTime() + amount);

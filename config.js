@@ -10,21 +10,21 @@ var transitionList = fs.readdirSync(path.resolve(__dirname, './src/transitions')
 var externals = {};
 
 Object.keys(Components).forEach(function(key) {
-  externals[`g7s-element/packages/${key}`] = `g7s-element/lib/${key}`;
+  externals[`@ued/element/packages/${key}`] = `@ued/element/lib/${key}`;
 });
 
-externals['g7s-element/src/locale'] = 'g7s-element/lib/locale';
+externals['@ued/element/src/locale'] = '@ued/element/lib/locale';
 utilsList.forEach(function(file) {
   file = path.basename(file, '.js');
-  externals[`g7s-element/src/utils/${file}`] = `g7s-element/lib/utils/${file}`;
+  externals[`@ued/element/src/utils/${file}`] = `@ued/element/lib/utils/${file}`;
 });
 mixinsList.forEach(function(file) {
   file = path.basename(file, '.js');
-  externals[`g7s-element/src/mixins/${file}`] = `g7s-element/lib/mixins/${file}`;
+  externals[`@ued/element/src/mixins/${file}`] = `@ued/element/lib/mixins/${file}`;
 });
 transitionList.forEach(function(file) {
   file = path.basename(file, '.js');
-  externals[`g7s-element/src/transitions/${file}`] = `g7s-element/lib/transitions/${file}`;
+  externals[`@ued/element/src/transitions/${file}`] = `@ued/element/lib/transitions/${file}`;
 });
 
 externals = [Object.assign({
@@ -36,7 +36,7 @@ exports.externals = externals;
 exports.alias = {
     main: path.resolve(__dirname, './src'),
     packages: path.resolve(__dirname, './packages'),
-    'g7s-element': path.resolve(__dirname, './')
+    '@ued/element': path.resolve(__dirname, './')
 };
 
 exports.vue = {

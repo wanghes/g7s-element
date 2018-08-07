@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import { debounce } from 'throttle-debounce';
-import merge from 'g7s-element/src/utils/merge';
-import { hasClass, addClass, removeClass } from 'g7s-element/src/utils/dom';
+import merge from '@ued/element/src/utils/merge';
+import { hasClass, addClass, removeClass } from '@ued/element/src/utils/dom';
 import { orderBy, getColumnById, getRowIdentity } from './util';
 
 const sortData = (data, states) => {

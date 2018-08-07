@@ -42,10 +42,10 @@
   import HueSlider from './hue-slider';
   import AlphaSlider from './alpha-slider';
   import Predefine from './predefine';
-  import Popper from 'g7s-element/src/utils/vue-popper';
-  import Locale from 'g7s-element/src/mixins/locale';
-  import ElInput from 'g7s-element/packages/input';
-  import ElButton from 'g7s-element/packages/button';
+  import Popper from '@ued/element/src/utils/vue-popper';
+  import Locale from '@ued/element/src/mixins/locale';
+  import ElInput from '@ued/element/packages/input';
+  import ElButton from '@ued/element/packages/button';
 
   export default {
     name: 'el-color-picker-dropdown',

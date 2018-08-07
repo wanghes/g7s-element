@@ -1,6 +1,6 @@
 <script>
   import TabBar from './tab-bar';
-  import { addResizeListener, removeResizeListener } from 'g7s-element/src/utils/resize-event';
+  import { addResizeListener, removeResizeListener } from '@ued/element/src/utils/resize-event';
 
   function noop() {}
   const firstUpperCase = str => {

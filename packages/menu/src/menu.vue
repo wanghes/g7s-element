@@ -1,8 +1,8 @@
 <script type="text/jsx">
-  import emitter from 'g7s-element/src/mixins/emitter';
-  import Migrating from 'g7s-element/src/mixins/migrating';
-  import Menubar from 'g7s-element/src/utils/menu/aria-menubar';
-  import { addClass, removeClass, hasClass } from 'g7s-element/src/utils/dom';
+  import emitter from '@ued/element/src/mixins/emitter';
+  import Migrating from '@ued/element/src/mixins/migrating';
+  import Menubar from '@ued/element/src/utils/menu/aria-menubar';
+  import { addClass, removeClass, hasClass } from '@ued/element/src/utils/dom';
 
   export default {
     name: 'ElMenu',

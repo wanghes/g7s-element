@@ -61,8 +61,8 @@
   </transition-group>
 </template>
 <script>
-  import Locale from 'g7s-element/src/mixins/locale';
-  import ElProgress from 'g7s-element/packages/progress';
+  import Locale from '@ued/element/src/mixins/locale';
+  import ElProgress from '@ued/element/packages/progress';
 
   export default {
     mixins: [Locale],
